@@ -285,7 +285,8 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service-qti
+    android.hardware.power@1.3-service.pixel-libperfmgr \
+    powerhint.json
 
 # Product characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
