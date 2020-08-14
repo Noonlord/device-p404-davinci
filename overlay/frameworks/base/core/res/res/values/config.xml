@@ -618,4 +618,8 @@
     <integer-array name="config_keyboardTapVibePattern">
         <item>10</item>
     </integer-array>
+
+     <!-- Disable SBC HD audio dual channel support by default -->
+        <bool name="config_enableSBCDualChannelAudio">false</bool>
+        
 </resources>
