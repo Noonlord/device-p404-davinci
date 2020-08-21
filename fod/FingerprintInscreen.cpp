@@ -65,7 +65,7 @@ static bool readBool(int fd) {
 } // anonymous namespace
 
 namespace vendor {
-namespace lineage {
+namespace p404 {
 namespace biometrics {
 namespace fingerprint {
 namespace inscreen {
