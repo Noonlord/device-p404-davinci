@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
 # Inherit some common Wrath stuff.
-$(call inherit-product, vendor/wrath/config/common.mk)
+$(call inherit-product, vendor/404/configs/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := wrath_davinci
+PRODUCT_NAME := p404_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T
