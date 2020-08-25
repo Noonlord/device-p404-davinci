@@ -21,6 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from davinci device
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 $(call inherit-product, vendor/pixelgapps/pixel-gapps.mk)
+$(call inherit-product, vendor/apps/OPScreenRecord/config.mk)
 
 # Inherit some common Wrath stuff.
 $(call inherit-product, vendor/404/configs/common.mk)
