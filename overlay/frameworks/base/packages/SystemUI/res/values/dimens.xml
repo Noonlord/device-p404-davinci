@@ -15,5 +15,5 @@
 */
 -->
 <resources>
-
+<dimen name="rounded_corner_content_padding">13dp</dimen>
 </resources>
