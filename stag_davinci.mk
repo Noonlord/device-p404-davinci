@@ -24,11 +24,11 @@ $(call inherit-product, vendor/pixelgapps/pixel-gapps.mk)
 $(call inherit-product, vendor/apps/OPScreenRecord/config.mk)
 
 # Inherit some common Wrath stuff.
-$(call inherit-product, vendor/wrath/config/common.mk)
+$(call inherit-product, vendor/stag/main.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := wrath_davinci
+PRODUCT_NAME := stag_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T

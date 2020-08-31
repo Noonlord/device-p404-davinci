@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wrath_davinci.mk
+    $(LOCAL_DIR)/stag_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    wrath_davinci-user \
-    wrath_davinci-userdebug \
-    wrath_davinci-eng
+    stag_davinci-user \
+    stag_davinci-userdebug \
+    stag_davinci-eng
