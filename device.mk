@@ -145,10 +145,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    vendor.p404.biometrics.fingerprint.inscreen@1.0-service.davinci
+    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.davinci
 
-PRODUCT_COPY_FILES += \
-    vendor/404/configs/permissions/vendor.p404.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.p404.biometrics.fingerprint.inscreen.xml
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
@@ -212,9 +210,9 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.davinci
 
 # LiveDisplay
-#PRODUCT_PACKAGES += \
-#    vendor.lineage.livedisplay@2.0-service-sdm \
-#    vendor.lineage.livedisplay@2.0-service.davinci
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-sdm \
+    vendor.lineage.livedisplay@2.0-service.davinci
 
 # Media
 PRODUCT_PACKAGES += \

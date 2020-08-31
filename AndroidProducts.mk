@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/p404_davinci.mk
+    $(LOCAL_DIR)/wrath_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    p404_davinci-user \
-    p404_davinci-userdebug \
-    p404_davinci-eng
+    wrath_davinci-user \
+    wrath_davinci-userdebug \
+    wrath_davinci-eng
