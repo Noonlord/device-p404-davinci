@@ -138,7 +138,6 @@ vendor/lib64/libmivendor_module_motor.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmpbase.so
-vendor/lib64/libnpu.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libremosaic_daemon.so
 vendor/lib64/libSuperSensorCPU.so
@@ -382,8 +381,6 @@ vendor/lib64/libsdmextension.so|72991016a61b3d56ef91265ac76134b55636c392
 vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 
 # Display calibration
-vendor/etc/dsi_ss_fhd_ea_f10_cmd_display_mi.xml
-vendor/etc/dsi_ss_fhd_eb_f10_cmd_display_mi.xml
 vendor/etc/qdcm_calib_data_ss_ea_fhd_cmd_dsi_panel.xml
 vendor/etc/qdcm_calib_data_ss_eb_fhd_cmd_dsi_panel.xml
 
@@ -947,8 +944,6 @@ vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 
 # WLAN
 vendor/bin/cnss-daemon
-vendor/lib64/libqsap_sdk.so
-vendor/lib/libqsap_sdk.so
 
 # Xiaomi MAC
 vendor/bin/nv_mac
